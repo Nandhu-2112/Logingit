@@ -57,7 +57,7 @@ def login(i: LoginItem):
     result = mypost.fetchone()
     mydb.close()
     if result:
-        return {"message": "Success"}
+        return {"message": "Successfully"}
     else:
         return {"message": "Invalid"}
 
